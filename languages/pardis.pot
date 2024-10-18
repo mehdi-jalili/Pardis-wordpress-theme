@@ -1,0 +1,313 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: pardis\n"
+"POT-Creation-Date: 2024-06-11 15:08+0330\n"
+"PO-Revision-Date: 2024-06-11 15:08+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try with Menu links?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: functions/add_theme_support.php:11
+msgid "Primary"
+msgstr ""
+
+#: functions/register_block_pattern.php:11
+msgid "Block pattern description : This is my first block pattern"
+msgstr ""
+
+#: functions/register_widgets.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: functions/register_widgets.php:12 functions/register_widgets.php:24
+#: functions/register_widgets.php:36 functions/register_widgets.php:48
+msgid "Add widgets here."
+msgstr ""
+
+#: functions/register_widgets.php:22
+msgid "Footer 1"
+msgstr ""
+
+#: functions/register_widgets.php:34
+msgid "Footer 2"
+msgstr ""
+
+#: functions/register_widgets.php:46
+msgid "Footer 3"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-color.php:12
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/custom-color.php:25
+msgid "Post Border Box Color"
+msgstr ""
+
+#: inc/custom-color.php:38
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/custom-color.php:51
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/custom-color.php:65
+msgid "Links Color"
+msgstr ""
+
+#: inc/custom-color.php:79
+msgid "Heading Text Color"
+msgstr ""
+
+#: inc/custom-color.php:93
+msgid "Text Color"
+msgstr ""
+
+#: inc/custom-color.php:107
+msgid "footer color"
+msgstr ""
+
+#: inc/custom-fontsize.php:9
+msgid "Typography"
+msgstr ""
+
+#: inc/custom-fontsize.php:35
+msgid "H1 Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:56
+msgid "H1 Font Weight"
+msgstr ""
+
+#: inc/custom-fontsize.php:72
+msgid "H2 Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:88
+msgid "H2 Font Weight"
+msgstr ""
+
+#: inc/custom-fontsize.php:104
+msgid "H3 Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:120
+msgid "H3 Font Weight"
+msgstr ""
+
+#: inc/custom-fontsize.php:137
+msgid "H4 Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:153
+msgid "H4 Font Weight"
+msgstr ""
+
+#: inc/custom-fontsize.php:169
+msgid "H5 Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:185
+msgid "H5 Font Weight"
+msgstr ""
+
+#: inc/custom-fontsize.php:201
+msgid "H6 Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:217
+msgid "H6 Font Weight"
+msgstr ""
+
+#: inc/custom-fontsize.php:233
+msgid "Paragraph Font Size (px)"
+msgstr ""
+
+#: inc/custom-fontsize.php:249
+msgid "Paragraph Font Weight"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:23
+msgid "Previous:"
+msgstr ""
+
+#: single.php:24
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content/content-index.php:61
+#: template-parts/content/content-page.php:25
+#: template-parts/content/content.php:36
+msgid "Page"
+msgstr ""
+
+#. translators: %: Page number.
+#: template-parts/content/content-index.php:64
+#: template-parts/content/content-page.php:28
+#: template-parts/content/content.php:39
+msgid "Page %"
+msgstr ""
+
+#: template-parts/content/content-index.php:74
+#: template-parts/content/content-search.php:29
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/header/site-nav.php:17
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/header/site-search.php:11
+msgid "search here..."
+msgstr ""
+
+#: template-parts/header/site-search.php:12
+msgid "search"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "pardis"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/Pardis-wordpress-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"pardis is a new Modern, lightweight, and Fast WordPress theme. It’s perfect "
+"for blogs, startups, agencies, personal portfolio sites, and most projects."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mehdi Jalili"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/"
+msgstr ""

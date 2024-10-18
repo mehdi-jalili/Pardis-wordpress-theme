@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: pardis\n"
+"POT-Creation-Date: 2024-06-11 15:08+0330\n"
+"PO-Revision-Date: 2024-06-11 15:25+0330\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوپس! این صفحه &rsquo;یافت نمیشود."
+
+#: 404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try with Menu links?"
+msgstr ""
+"بنظر میرسد چیزی در اینجا یافت نشده است. شاید بهتر است لینک منو را امتحان "
+"کنید؟"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "یک نظر برای &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نظر داد به &ldquo;%2$s&rdquo;"
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "نظرات مسدود است."
+
+#: functions/add_theme_support.php:11
+msgid "Primary"
+msgstr "اصلی"
+
+#: functions/register_block_pattern.php:11
+msgid "Block pattern description : This is my first block pattern"
+msgstr "توضیحات بلوک پترن: این اولین بلوک پترن من است"
+
+#: functions/register_widgets.php:10
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: functions/register_widgets.php:12 functions/register_widgets.php:24
+#: functions/register_widgets.php:36 functions/register_widgets.php:48
+msgid "Add widgets here."
+msgstr "از اینجا ابزارک اضافه کنید."
+
+#: functions/register_widgets.php:22
+msgid "Footer 1"
+msgstr "پاورقی 1"
+
+#: functions/register_widgets.php:34
+msgid "Footer 2"
+msgstr "پاورقی 2"
+
+#: functions/register_widgets.php:46
+msgid "Footer 3"
+msgstr "پاورقی 3"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: inc/custom-color.php:12
+msgid "Header Background Color"
+msgstr "رنگ پس زمینه سربرگ"
+
+#: inc/custom-color.php:25
+msgid "Post Border Box Color"
+msgstr "رنگ حاشیه کادر پست"
+
+#: inc/custom-color.php:38
+msgid "Button Background Color"
+msgstr "رنگ پس زمینه دکمه"
+
+#: inc/custom-color.php:51
+msgid "Button Text Color"
+msgstr "رنگ نوشتار دکمه"
+
+#: inc/custom-color.php:65
+msgid "Links Color"
+msgstr "رنگ لینک ها"
+
+#: inc/custom-color.php:79
+msgid "Heading Text Color"
+msgstr "رنگ نوشتار سربرگ"
+
+#: inc/custom-color.php:93
+msgid "Text Color"
+msgstr "رنگ نوشتار"
+
+#: inc/custom-color.php:107
+msgid "footer color"
+msgstr "رنگ پاورقی"
+
+#: inc/custom-fontsize.php:9
+msgid "Typography"
+msgstr "نوشتار"
+
+#: inc/custom-fontsize.php:35
+msgid "H1 Font Size (px)"
+msgstr "اندازه نوشتار H1 (پیکسل)"
+
+#: inc/custom-fontsize.php:56
+msgid "H1 Font Weight"
+msgstr "ضخامت نوشتار H1"
+
+#: inc/custom-fontsize.php:72
+msgid "H2 Font Size (px)"
+msgstr "اندازه نوشتار H2 (پیکسل)"
+
+#: inc/custom-fontsize.php:88
+msgid "H2 Font Weight"
+msgstr "ضخامت نوشتار H2"
+
+#: inc/custom-fontsize.php:104
+msgid "H3 Font Size (px)"
+msgstr "اندازه نوشتار H3 (پیکسل)"
+
+#: inc/custom-fontsize.php:120
+msgid "H3 Font Weight"
+msgstr "ضخامت نوشتار H3"
+
+#: inc/custom-fontsize.php:137
+msgid "H4 Font Size (px)"
+msgstr "اندازه نوشتار H4 (پیکسل)"
+
+#: inc/custom-fontsize.php:153
+msgid "H4 Font Weight"
+msgstr "ضخامت نوشتار H4"
+
+#: inc/custom-fontsize.php:169
+msgid "H5 Font Size (px)"
+msgstr "اندازه نوشتار H5 (پیکسل)"
+
+#: inc/custom-fontsize.php:185
+msgid "H5 Font Weight"
+msgstr "ضخامت نوشتار H5"
+
+#: inc/custom-fontsize.php:201
+msgid "H6 Font Size (px)"
+msgstr "اندازه نوشتار H6 (پیکسل)"
+
+#: inc/custom-fontsize.php:217
+msgid "H6 Font Weight"
+msgstr "ضخامت نوشتار H6"
+
+#: inc/custom-fontsize.php:233
+msgid "Paragraph Font Size (px)"
+msgstr "اندازه نوشتار پاراگراف (پیکسل)"
+
+#: inc/custom-fontsize.php:249
+msgid "Paragraph Font Weight"
+msgstr "ضخامت نوشتار پاراگراف"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "منتشر شده در %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "توسط %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr "،"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr "منتشر شده در %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr "،"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr "برچسب زده شده %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "نظر خود را درج کنید<span class=\"screen-reader-text\"> بر %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: single.php:23
+msgid "Previous:"
+msgstr "قبلی:"
+
+#: single.php:24
+msgid "Next:"
+msgstr "بعدی:"
+
+#: template-parts/content/content-index.php:61
+#: template-parts/content/content-page.php:25
+#: template-parts/content/content.php:36
+msgid "Page"
+msgstr "برگه"
+
+#. translators: %: Page number.
+#: template-parts/content/content-index.php:64
+#: template-parts/content/content-page.php:28
+#: template-parts/content/content.php:39
+msgid "Page %"
+msgstr "برگه %"
+
+#: template-parts/content/content-index.php:74
+#: template-parts/content/content-search.php:29
+msgid "Read More"
+msgstr "بیشتر بخوانید"
+
+#: template-parts/content/content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی یافت نشد"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"برای انتشار اولین پست خود آماده ای؟ <a href=\"%1$s\">از اینجا آغاز کن</a>."
+
+#: template-parts/content/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "متاسفیم, چیزی یافت نشد. لطفا جستجوی خود را با عبارت دیگری انجام دهید."
+
+#: template-parts/content/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+
+#: template-parts/header/site-nav.php:17
+msgid "Toggle navigation"
+msgstr "ناوبری"
+
+#: template-parts/header/site-search.php:11
+msgid "search here..."
+msgstr "اینجا جستجو کنید…"
+
+#: template-parts/header/site-search.php:12
+msgid "search"
+msgstr "جستجو"
+
+#. Theme Name of the plugin/theme
+msgid "pardis"
+msgstr "پردیس"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/Pardis-wordpress-theme"
+msgstr "https://github.com/mehdi-jalili/Pardis-wordpress-theme"
+
+#. Description of the plugin/theme
+msgid ""
+"pardis is a new Modern, lightweight, and Fast WordPress theme. It’s perfect "
+"for blogs, startups, agencies, personal portfolio sites, and most projects."
+msgstr ""
+"پردیس یک قالب مدرن، سبک و سریع وردپرس است. این قالب برای بلاگ, استارت اپ, "
+"آژانس ها, سایت های شخصی و بسیاری از کاربری ها مناسب است."
+
+#. Author of the plugin/theme
+msgid "Mehdi Jalili"
+msgstr "مهدی جلیلی"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/mehdi-jalili/"
+msgstr "https://github.com/mehdi-jalili/"
