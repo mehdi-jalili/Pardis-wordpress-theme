@@ -155,7 +155,7 @@ function enqueue_dynamic_styles() {
         color: $links_color;
     }
 
-    .index-post-box{
+    .index-post-txt{
         
         border-color: $post_border_box_color !important;
     }
