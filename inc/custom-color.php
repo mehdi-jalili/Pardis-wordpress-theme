@@ -131,8 +131,8 @@ function enqueue_dynamic_styles() {
     // Add the dynamic CSS to the main theme stylesheet
     $custom_css = "
 
-    .menu {
-        background-color: $header_background_color;
+    #masthead {
+        background-color: $header_background_color !important;
     }
 
     button,
@@ -140,21 +140,16 @@ function enqueue_dynamic_styles() {
     #searchbtnhead{
         background-color: $button_background_color !important;
         border-color: $button_background_color !important;
-    }
-
-    button:hover,
-    .submit,
-    #searchbtnhead{
-        background-color: $button_background_color !important;
-        border-color: $button_background_color !important;
-    }
-
-    button,
-    .submit,
-    #searchbtnhead{
         color: $button_text_color !important;
     }
 
+    button:hover,
+    .submit:hover,
+    #searchbtnhead:hover{
+        background-color: $button_text_color !important;
+        border-color: $button_background_color !important;
+        color: $button_background_color !important;
+    }
 
     a{
         color: $links_color;

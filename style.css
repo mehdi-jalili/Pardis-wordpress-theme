@@ -635,6 +635,10 @@ textarea {
 
 /* Navigation
 --------------------------------------------- */
+#masthead{
+	background-color: #007bff;
+}
+
 .main-navigation {
 	display: block;
 	width: 100%;
