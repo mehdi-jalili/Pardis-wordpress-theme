@@ -21,10 +21,10 @@ a:hover{text-decoration: none;}
 /* a:focus{outline: none !important;} */
 body{line-height: 1.8;}
 html{scroll-behavior: smooth;}
-button{outline: 0; border: 0; background: transparent;}
+
 /* button:focus{outline: auto;} */
 /* input:focus{outline: auto; box-shadow: none !important;} */
-.container{max-width: 1200px;}
+.container{max-width: 1800px;}
 .font-13{font-size: 13px;}
 .font-14{font-size: 14px;}
 .font-16{font-size: 16px;}
@@ -122,8 +122,8 @@ h1.site-title a{color: #fff;}
 
 
 /* Page Content */
-.pardis-page {padding: 50px 0;}
-.pardis-post article{margin: 20px 0px;}
+/* .pardis-page {padding: 50px 4%;} */
+
 .page-header {margin-bottom: 20px;}
 
 /* Search Page */

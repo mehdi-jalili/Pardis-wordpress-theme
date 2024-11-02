@@ -139,6 +139,14 @@ function enqueue_dynamic_styles() {
     .submit,
     #searchbtnhead{
         background-color: $button_background_color !important;
+        border-color: $button_background_color !important;
+    }
+
+    button:hover,
+    .submit,
+    #searchbtnhead{
+        background-color: $button_background_color !important;
+        border-color: $button_background_color !important;
     }
 
     button,
@@ -153,7 +161,7 @@ function enqueue_dynamic_styles() {
     }
 
     .index-post-box{
-        border: 1px solid;
+        
         border-color: $post_border_box_color !important;
     }
 

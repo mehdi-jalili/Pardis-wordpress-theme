@@ -557,7 +557,9 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+	border-color:#007bff;
+	color:#007bff;
+	background-color: #ffffff;
 	transition: 0.5s;
 }
 
@@ -569,7 +571,9 @@ input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-	border-color: #aaa #bbb #bbb;
+	border-color: #007bff;
+	color:#007bff;
+	background-color: #ffffff;
 }
 
 input[type="text"],
@@ -614,7 +618,7 @@ textarea:focus {
 }
 
 select {
-	border: 1px solid #ccc;
+	border: 1px solid #007bff;
 }
 
 textarea {
@@ -728,57 +732,85 @@ textarea {
 /* Posts and pages
 --------------------------------------------- */
 
-
 /*
 post box desktop
 */
 
+
+
 .index-post-box{
-	display: grid;
-	border: 1px solid;
-	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+img.wp-post-image{
 	border-radius: 25px;
-	padding: 20px;
 }
 
-@media screen and (max-width: 769px) {
 
-	.index-post-box{
-		grid-template-rows: 1fr 1fr;
-	}
 
-	.index-post-img{
-		grid-row: 1/2;
-		margin: auto;
-	}
-
-	.index-post-txt{
-		grid-row: 2/3;
-		text-align: center;
-	}
-
+.index-post-box {
+	flex-direction: column;
+	margin: 70px 0px;
+	padding: 0% 5%;
 }
 
-@media screen and (min-width: 770px) {
-
-	.index-post-box{
-		grid-template-columns: 1fr 3fr;
-	}
-
-	.index-post-img{
-		grid-column: 1/2;
-		margin: 0px 20px;
-	}
-
-	.index-post-txt{
-		grid-column: 2/3;
-	}
-
-}
-
-.post-thumbnail{
+.index-post-txt {
+	border: 1px solid;
+	border-radius: 25px;
+	margin-top: -120px;
+	padding: 130px 5% 3% 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
+
+.index-post-img{
+	display: flex;
+	justify-content: center;
+}
+
+.index-post-img,
+img.wp-post-image {
+	z-index: 2;
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+	.pardis-post article{
+		margin: 5% 0px 5% 5%;
+	}
+
+	.index-post-box {
+		flex-direction: row;
+		align-items: center;
+		margin: 50px 0px;
+		padding: 0% 5%;
+	}
+
+	.index-post-txt {
+		border: 1px solid;
+		margin: 0px 0px 0px -260px;
+		padding: 0px 20px 0px 290px;
+		height: 300px;
+		align-items: flex-start;
+		text-align: left;
+		width: 100%;
+	}
+
+	.index-post-img,
+	img.wp-post-image {
+		min-height: 250px;
+		min-width: 330px;
+		border-radius: 25px;
+		z-index: 2;
+	}
+}
+
 
 /*
 post box end
@@ -1017,4 +1049,12 @@ post box end
 
 .header-cnt {
     padding: 0px 50px;
+}
+
+button{
+    outline: 0;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+	background-color: #007bff;
+	color: #ffffff;
 }

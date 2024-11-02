@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main pardis-page pardis-post">
+	<main id="primary">
 		<div class="container">
 			<?php
 			if ( have_posts() ) {
@@ -49,7 +49,7 @@ get_header();
 
 			};
 			?>
-		</div>
+			</div>
 	</main><!-- #main -->
 
 <?php
