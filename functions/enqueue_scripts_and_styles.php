@@ -8,10 +8,11 @@ function pardis_scripts() {
 	 * Theme Styles
 	 */
 	wp_enqueue_style( 'pardis-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'pardis-style', 'rtl', 'replace' );
 	wp_enqueue_style( 'pardis-theme-bt-style', pardis_THEME_DIR . '/assets/css/bootstrap.min.css', array(), _S_VERSION );
-	wp_enqueue_style( 'pardis-theme-style', pardis_THEME_DIR . '/assets/css/theme-style.css', array(), _S_VERSION );
-	wp_enqueue_style( 'pardis-theme-responsive', pardis_THEME_DIR . '/assets/css/responsive.css', array(), _S_VERSION );
+	if (is_rtl()) {
+		wp_enqueue_style('rtl-style', get_template_directory_uri() . '/style-rtl.css', array('pardis-style'), _S_VERSION);
+		wp_style_add_data('pardis-style', 'rtl', 'replace');
+	}
 
 	/**
 	 * Theme Scripts

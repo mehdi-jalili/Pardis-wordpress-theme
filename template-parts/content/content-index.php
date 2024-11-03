@@ -13,29 +13,27 @@
 
 <article class="index-post-box" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+	<?php if (has_post_thumbnail()) { ?>
+
 		<div class="index-post-img">
-		
-			<?php if (has_post_thumbnail()) { ?>
-				
+
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail('main-box-img'); ?>
 				</a>
 
-			<?php } else { ?>
-
-				<a href="<?php the_permalink(); ?>">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/image.jpg" alt="">
-				</a>
-
-			<?php
-			}
-			?>
+			
 
 		</div>
 
+		<div class="index-post-txt-thumb">
+
+		<?php } else { ?>
+
+		<div class="index-post-txt-nothumb">
+			
+		<?php } ?>
 	
-	
-		<div class="index-post-txt">
+		
 				
 			<header class="">
 				<?php ?>
