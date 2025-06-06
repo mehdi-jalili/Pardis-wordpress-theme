@@ -62,6 +62,11 @@ pardis is a new Modern, light weight and Fast wordpress theme. It’s perfect fo
 * some improvement in styles and functions
 : November 03, 2024
 
+= 2.0.1 =
+* wordpress version 6.8 compatibility
+* some improvement in styles and functions
+: June 06, 2025
+
 
 == Copyright ==
 
