@@ -1,0 +1,189 @@
+/*
+Theme Name: pardis
+Author: Mehdi Jalili
+Author URI: https://github.com/mehdi-jalili/
+Description: pardis is a new Modern, lightweight, and Fast WordPress theme. It’s perfect for blogs, startups, agencies, personal portfolio sites, and most projects.
+Theme URI: https://github.com/mehdi-jalili/Pardis-wordpress-theme
+Version: 2.0.0
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: pardis
+Tags: blog, one-column, Two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, custom-header, featured-image-header, flexible-header
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+body{text-align:right;}
+
+
+/* Common CSS */
+select{
+	background: url('/assets/images/angle-dropdown.png') no-repeat right 15px center;
+	 padding-right: 40px;}
+.btn-green{font-family: 'Oswald'; padding: 10px 35px; border-radius: 10px; color: #fff; background-color: #007bff; font-size: 18px; border: 2px solid #007bff; display: inline-block; text-align: center; min-width: 150px; line-height: 22px;}
+
+
+/* Header CSS */
+.menu ul ul { list-style: none; display: none; right: auto; left: 0; border-top: 1px solid #007bff; margin: 0; min-width: 245px; position: absolute; top: 50px; z-index: 9999; background: #252728; padding: 0px; }
+
+.submenu-caret:after {
+    content: "+"; display: inline-block; font-size: 18px; left: 0; position: relative; font-family: "FontAwesome"; color: #fff;font-style: normal; cursor: pointer;
+}
+
+
+.search-form { right: 0;}
+.search-form label {margin: 0;}
+.search-form input[type="search"] {border-bottom-left-radius: 5px; border-top-left-radius: 5px;}
+
+.search-form input[type="submit"] {
+	min-height: 50px;
+	color: white;
+	padding: 0px 20px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 16px;
+	background: #007bff;
+}
+
+@media only screen and (max-width: 991px) {
+	button.navbar-toggler {
+		position: relative !important;
+		margin: 30px 0px 0px 20px !important;
+	}
+    .header-right-section {margin-right: 70px;}
+    
+
+    .mobile-menu-close {
+		top: 2px;
+		right: 2px;
+	}
+}
+
+
+@media only screen and (max-width: 575px) {
+    nav.navbar {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+
+    button.navbar-toggler{
+		right: 10px;
+	}
+
+    .search-field-form {
+		right: -57px;
+	}
+}
+
+.social-icons img{width: 45px; height: 45px;}
+.social-icons a{margin-left: 15px;}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+}
+
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+.main-navigation ul {
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	display: block;
+	left: auto;
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.site-main .comment-navigation,
+.site-main
+.posts-navigation,
+.site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	flex: 1 0 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	text-align: end;
+	flex: 1 0 50%;
+}
+
+/* Posts and pages
+--------------------------------------------- */
+
+@media screen and (min-width: 992px) {
+
+	.index-post-txt-thumb,
+	.index-post-txt-nothumb{
+		text-align: right !important;
+		width: 100%;
+	}
+
+	.index-post-txt-thumb {
+		margin: 0px -80px 0px 0px !important;
+		padding: 0px 100px 0px 20px !important;
+	}
+
+	.index-post-txt-nothumb {
+		padding: 0px 20px;
+	}
+
+	.index-post-img,
+	img.wp-post-image {
+		min-height: 250px;
+		min-width: 330px;
+		border-radius: 25px;
+		z-index: 2;
+	}
+}
+/* Captions
+--------------------------------------------- */
+.screen-reader-text:focus {
+	left: 5px;
+}
+
